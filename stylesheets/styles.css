@@ -724,6 +724,7 @@ dt {
   line-height: 50px;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
   font-size: 14px;
+  margin-right: 6px;
 }
 #header nav li a {
   color: white;
@@ -751,6 +752,17 @@ dt {
   font-size: 14px;
   display: inline-block;
   text-align: center;
+  width: 125px;
+}
+#header nav li #ppt{
+  border: 1px solid #913461;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bd4db7), color-stop(100%, #9e3966));
+  background: -webkit-linear-gradient(#bd4db7, #9e3966);
+  background: -moz-linear-gradient(#bd4db7, #9e3966);
+  background: -o-linear-gradient(#bd4db7, #9e3966);
+  background: -ms-linear-gradient(#bd4db7, #9e3966);
+  background: linear-gradient(#bd4db7, #9e3966);
+  background-color: #bd4db7;
 }
 #header nav li a:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
@@ -765,6 +777,16 @@ dt {
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+}
+#header nav li #ppt:hover{
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bd44a3), color-stop(100%, #712453));
+  background: -webkit-linear-gradient(#bd44a3, #712453);
+  background: -moz-linear-gradient(#bd44a3, #712453);
+  background: -o-linear-gradient(#bd44a3, #712453);
+  background: -ms-linear-gradient(#bd44a3, #712453);
+  background: linear-gradient(#bd44a3, #712453);
+  background-color: #9e3f84;
+  border: 1px solid #712453;
 }
 #header nav li.fork {
   float: left;
